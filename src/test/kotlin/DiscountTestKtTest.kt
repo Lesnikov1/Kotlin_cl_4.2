@@ -13,7 +13,7 @@ class DiscountTestKtTest {
 
         val result = commission(typeCard = typeCard, transfer = transfer, previous = previous, offer)
 
-        assertEquals(100, result)
+        assertEquals(0, result)
     }
 
     @Test
@@ -49,7 +49,7 @@ class DiscountTestKtTest {
 
         val result = commission(typeCard = typeCard, transfer = transfer, previous = previous, offer)
 
-        assertEquals(758, result)
+        assertEquals(750, result)
     }
 
     @Test

@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f92e465-0ab2-476b-8f15-663df4819119" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/DiscountTestKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/DiscountTestKtTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Gradle.Build discountTest.executor": "Run",
+    "Gradle.DiscTest [test].executor": "Run",
     "Gradle.DiscountTestKtTest.CommissionMastercardMaestro.executor": "Run",
     "Gradle.DiscountTestKtTest.CommissionMastercardMaestro1.executor": "Run",
     "Gradle.DiscountTestKtTest.CommissionMastercardMaestro2.executor": "Run",
@@ -75,7 +77,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Matvei/IdeaProjectsKotlin/Домашка 4/TestDiscount",
+    "last_opened_file_path": "C:/Users/Matvei/IdeaProjectsKotlin/Домашка 4/DiscTest",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -96,11 +98,33 @@
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
-      <command value="gradle test" />
       <command value="gradle test jacocoTestReport" />
+      <command value="gradle test" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TestDiscount [test jacocoTestReport]">
+  <component name="RunManager" selected="Gradle.DiscTest [test]">
+    <configuration name="DiscTest [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="DiscountTestKtTest.CommissionMastercardMaestro3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -196,36 +220,13 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="discountTest [test jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="test" />
-            <option value="jacocoTestReport" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DiscTest [test]" />
         <item itemvalue="Gradle.TestDiscount [test jacocoTestReport]" />
         <item itemvalue="Gradle.DiscountTestKtTest.commissionLimit1Vk" />
         <item itemvalue="Gradle.DiscountTestKtTest.CommissionPay" />
         <item itemvalue="Gradle.DiscountTestKtTest.CommissionMastercardMaestro3" />
-        <item itemvalue="Gradle.discountTest [test jacocoTestReport]" />
       </list>
     </recent_temporary>
   </component>
@@ -239,5 +240,20 @@
       <updated>1721246557482</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/DiscountTestKtTest.kt</url>
+          <line>7</line>
+          <properties class="DiscountTestKtTest" method="commissionLimit1Vk">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
